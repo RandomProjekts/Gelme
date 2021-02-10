@@ -1,10 +1,10 @@
 #blocks you stand on
-execute at @a as @a if block ~ ~-1 ~ minecraft:blue_glazed_terracotta run effect give @p jump_boost 1 5 true
-execute at @a as @a if block ~ ~-1 ~ minecraft:orange_terracotta run effect give @p speed 1 2 true
-execute at @a as @a if block ~ ~-1 ~ minecraft:green_glazed_terracotta run effect give @p slowness 1 3 true
-execute at @a as @a if block ~ ~-1 ~ minecraft:purple_glazed_terracotta run effect give @p levitation 4 7 true
-execute at @a as @a if block ~ ~-1 ~ minecraft:gray_glazed_terracotta run effect give @p blindness 4 127 true
-execute at @a as @a if block ~ ~-1 ~ minecraft:yellow_glazed_terracotta run effect give @p nausea 5 255 true
+execute at @a as @a if block ~ ~-1 ~ minecraft:light_blue_concrete run effect give @p jump_boost 1 5 true
+execute at @a as @a if block ~ ~-1 ~ minecraft:orange_concrete run effect give @p speed 1 2 true
+execute at @a as @a if block ~ ~-1 ~ minecraft:brown_concrete run effect give @p slowness 1 3 true
+execute at @a as @a if block ~ ~-1 ~ minecraft:purple_concrete run effect give @p levitation 4 7 true
+execute at @a as @a if block ~ ~-1 ~ minecraft:gray_concrete run effect give @p blindness 4 127 true
+execute at @a as @a if block ~ ~-1 ~ minecraft:yellow_concrete run effect give @p nausea 5 255 true
 
 #remove barrier
 execute at @a as @a if block ~ ~-2 ~ minecraft:barrier run setblock ~ ~-2 ~ minecraft:air replace
