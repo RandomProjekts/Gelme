@@ -19,10 +19,7 @@ execute at @a as @a if block ^ ^ ^1 minecraft:pink_glazed_terracotta run setbloc
 execute at @a as @a if block ^ ^ ^-1 minecraft:pink_glazed_terracotta run setblock ~ ~-1 ~ minecraft:barrier keep
 
 #blocks on the wall
-execute at @a as @a if block ~1 ~ ~ minecraft:light_blue_glazed_terracotta run effect give @p slowness 10 3 true
-execute at @a as @a if block ~-1 ~ ~ minecraft:light_blue_glazed_terracotta run 
-execute at @a as @a if block ~ ~ ~1 minecraft:light_blue_glazed_terracotta run 
-execute at @a as @a if block ~ ~ ~-1 minecraft:light_blue_glazed_terracotta run 
+
 
 
 
