@@ -6,4 +6,3 @@ scoreboard players operation @e[tag=uninitiated,tag=checkpoint] check = @e[tag=c
 scoreboard players reset @a check
 execute as @e[tag=uninitiated,tag=checkpoint] at @s if block ~ ~-1 ~ minecraft:air run data merge entity @s {CustomNameVisible:1b,CustomName:'{"text":"[]","color":"red","bold":true,"italic":true}'}
 tag @e[scores={check=1..},tag=uninitiated,tag=checkpoint] remove uninitiated
-forceload add ~ ~

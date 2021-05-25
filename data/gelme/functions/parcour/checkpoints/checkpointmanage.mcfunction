@@ -4,6 +4,7 @@ execute as @e[tag=checkpoint] at @s unless score @s check = @p[distance=..2] che
 #checkpoint deactivate
 execute as @e[tag=checkpoint,tag=deactivated] at @s unless block ~ ~-1 ~ minecraft:air run setblock ~ ~-1 ~ minecraft:iron_block
 execute as @e[tag=checkpoint,tag=deactivated] at @s if block ~ ~-1 ~ minecraft:air run data merge entity @s {CustomName:'{"text":"[]","color":"red","bold":true,"italic":true}'}
+execute as @e[tag=checkpoint,tag=deactivated] at @s run forceload remove ~ ~
 tag @e[tag=checkpoint,tag=deactivated] remove deactivated
 
 #checkpoint back tp
