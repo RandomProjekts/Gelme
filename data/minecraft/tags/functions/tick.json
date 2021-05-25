@@ -1,6 +1,7 @@
 {
   "values":[
-	"main:main",
-	"parcour:main"
+	"gelme:main/main",
+	"gelme:parcour/main",
+	"nofall:main"
   ]
 }

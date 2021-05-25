@@ -1,5 +1,6 @@
 {
   "values":[
-	"main:reset"
+	"gelme:main/reset",
+	"gelme:main/3sec"
   ]
 }

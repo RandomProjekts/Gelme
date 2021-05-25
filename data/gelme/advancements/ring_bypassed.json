@@ -1,0 +1,44 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "I bypassed the ring",
+            "color": "dark_red"
+        },
+        "description": {
+            "text": "Go through the corruption, that is blocking the way"
+        },
+        "icon": {
+            "item": "minecraft:warped_hyphae"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": true
+    },
+    "criteria": {
+        "inside": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "position": {
+                    "x": {
+                        "min": -9,
+                        "max": -4
+                    },
+                    "y": {
+                        "min": 25,
+                        "max": 175
+                    },
+                    "z": {
+						"min": 61,
+                        "max": 73
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "experience": 31
+    },
+    "parent": "gelme:wake_from_cryo"
+}

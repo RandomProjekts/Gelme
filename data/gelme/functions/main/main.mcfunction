@@ -1,0 +1,1 @@
+execute if entity @a[nbt={SleepTimer:1s}] run time set noon

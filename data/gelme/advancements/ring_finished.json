@@ -1,0 +1,44 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Finished the ring",
+            "color": "dark_aqua"
+        },
+        "description": {
+            "text": "You have gone through the ring"
+        },
+        "icon": {
+            "item": "minecraft:quartz_block"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "Inside": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "position": {
+                    "x": {
+                        "min": 4,
+                        "max": 9
+                    },
+                    "y": {
+                        "min": 25,
+                        "max": 173
+                    },
+                    "z": {
+                        "min": 61,
+                        "max": 73
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "experience": 12
+    },
+    "parent": "gelme:wake_from_cryo"
+}
